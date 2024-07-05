@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+<header>
+  <h2 class="title">Expense Tracker</h2>
+</header>
+
+<section>
+ 
+
+
+   <div class="expense-container">
+<!--Expense-name-->
+<h3 class="expense-name">Expense Name</h3>
+
+<input class="input js-name" type="text">
+
+<!--Expense-amount-->
+<h3 class="amount">Amount</h3>
+<input class="input js-amount" type="number">
+
+<!--Expense-Date-->
+<h3 class="date">Date</h3>
+<input class="input js-date" type="date">
+
+<!--Expense-Button-->
+<button onclick="addExpense()" class="add-btn" >Add Expense</button>
+
+<h2 class="expense-text">Expenses</h2>
+
+<div class="output-container js-output"></div>
+
+  </div>
+<p class="address">@2024 The Programmer's University</p>
+ 
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
